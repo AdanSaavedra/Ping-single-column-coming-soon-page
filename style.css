@@ -1,0 +1,109 @@
+/*Variables*/
+:root{
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+/*Body*/
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Main container*/
+main{
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.m-text{
+    margin: 0;
+    font-weight: 300;
+    color: var(--Gray);
+}
+.m-text span{
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+}
+.m-paragraph{
+    color: var(--Very-Dark-Blue);
+    margin: 0;
+}
+/*form*/
+.email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inp{
+    border: 1px solid var(--Gray);
+    width: 340px;
+    border-radius: 25px;
+    margin-right: 12px;
+    padding-left: 18px;
+    color: var(--Very-Dark-Blue);
+}
+.inp::placeholder{
+    color: var(--Gray);
+}
+.btn{
+    border: none;
+    background-color: var(--Blue);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 300ms;
+}
+.il-container{
+    width: 600px;
+}
+.illustration{
+width: 100%;
+height: 100%;
+}
+
+/*Footer*/
+.f-pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--Blue);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+}
+.btn2:hover{
+    background-color: var(--Blue);
+    cursor: pointer;
+}
+.f-icons{
+    width: 14px;
+    height: 14px;
+}
