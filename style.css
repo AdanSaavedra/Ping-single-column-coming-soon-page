@@ -28,9 +28,10 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
 }
 .m-text{
-    margin: 0;
+    margin: 30px 0 0 0;
     font-weight: 300;
     color: var(--Gray);
 }
@@ -40,13 +41,14 @@ main{
 }
 .m-paragraph{
     color: var(--Very-Dark-Blue);
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 /*form*/
 .email{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 30px 0 0 0;
 }
 .inp{
     border: 1px solid var(--Gray);
@@ -69,6 +71,7 @@ main{
     font-size: 20px;
     font-weight: 300;
     font-family: 'Libre Franklin', sans-serif;
+    box-shadow: 4px 13px 39px -6px var(--Blue);
 }
 .btn:hover{
     cursor: pointer;
@@ -77,6 +80,7 @@ main{
 }
 .il-container{
     width: 600px;
+    margin-top: 60px;
 }
 .illustration{
 width: 100%;
@@ -102,8 +106,22 @@ height: 100%;
 .btn2:hover{
     background-color: var(--Blue);
     cursor: pointer;
+    transition: 200ms;
+}
+.btn2:hover img{
+    filter: brightness(0) invert(1);
+    transition: 200ms;
 }
 .f-icons{
     width: 14px;
     height: 14px;
+}
+footer{
+    margin-top: auto;
+}
+#error{
+    color: var(--Light-Red);
+    font-size: 14px;
+    font-style: italic;
+    margin: 8px 0 0 0;
 }
