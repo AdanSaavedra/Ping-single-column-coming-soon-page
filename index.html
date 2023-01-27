@@ -27,16 +27,20 @@
       <h1 class="m-text">We are Launching <span>soon!</span></h1>
       <p class="m-paragraph">Subscribe and get notified</p>
       <form class="email">
-        <input
-          id="inp"
-          type="email"
-          class="inp"
-          required
-          placeholder="Your email address..."
-        />
+        <div class="input-container">
+          <input
+            id="inp"
+            type="email"
+            class="inp"
+            required
+            placeholder="Your email address..."
+          />
+          <p id="error"></p>
+        </div>
+
         <button class="btn" id="btn" type="submit">Notify Me</button>
       </form>
-      <p id="error"></p>
+
       <picture class="il-container">
         <img
           class="illustration"
